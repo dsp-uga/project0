@@ -21,6 +21,12 @@ a.frequencies()
 b = a.to_dataframe()
 b.columns.value_counts()
 
+# check first 10 rows
+b.head(n=10)
+
+# using iterations to go through each row and add everything into one list
+
+
 #could not covert bag to dataframe...always showing hundreds of lines of errors
 # b = a.to_dataframe()
 # b.compute()
