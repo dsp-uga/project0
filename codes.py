@@ -19,7 +19,7 @@ a = db.read_text(['/Users/mashi/Desktop/project0/handout/data/43000.txt',
 a.take(40)
 a.frequencies()
 b = a.to_dataframe()
-
+b.columns.value_counts()
 
 #could not covert bag to dataframe...always showing hundreds of lines of errors
 # b = a.to_dataframe()
